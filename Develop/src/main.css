@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+* {
+    box-sizing: border-box;
+  }
+
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(/Develop/img/back.jpg);
+    background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed;
+background-size: cover;
+b
+
+  }
+
+.header{
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Bangers', cursive;
+
+  }
+  
+  
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  .row {margin: 0 -5px;}
+  
+ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+ 
+  .card1 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+    padding: 16px;
+    text-align: center;
+    background-image: url(/Develop/img/ring.jpg);
+    font-family: 'Luckiest Guy', cursive;
+    color: white;
+    height: 25vh;
+    border-radius:  10px;
+    
+    
+    
+  }
+  .card2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+    padding: 16px;
+    text-align: center;
+    background-image: url(/Develop/img/dribble.jpg);
+    font-family: 'Luckiest Guy', cursive;
+    color: white;
+    height: 25vh;
+    border-radius:  10px;
+  }
+  .card3 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+    padding: 16px;
+    text-align: center;
+    background-image: url(/Develop/img/boost.jpg);
+    font-family: 'Luckiest Guy', cursive;
+    color: white;
+    height: 25vh;
+    border-radius:  10px;
+  }
+  .card4 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+    padding: 16px;
+    text-align: center;
+    background-image: url(/Develop/img/skate.png);
+    font-family: 'Luckiest Guy', cursive;
+    color: white;
+    height: 25vh;
+    border-radius:  10px;
+  }
+  
+
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
+  .column:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 5px 15px rgba(0,0,0,0.6);
+    transition: 2s;
