@@ -8,7 +8,7 @@
   
   body {
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(/Develop/img/back.jpg);
+    background-image: url(img/back.jpg);
     background-repeat: no-repeat;
 background-position: center center;
 background-attachment: fixed;
@@ -46,7 +46,7 @@ b
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
     padding: 16px;
     text-align: center;
-    background-image: url(/Develop/img/ring.jpg);
+    background-image: url(img/ring.jpg);
     font-family: 'Luckiest Guy', cursive;
     color: white;
     height: 25vh;
@@ -59,7 +59,7 @@ b
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
     padding: 16px;
     text-align: center;
-    background-image: url(/Develop/img/dribble.jpg);
+    background-image: url(img/dribble.jpg);
     font-family: 'Luckiest Guy', cursive;
     color: white;
     height: 25vh;
@@ -69,7 +69,7 @@ b
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
     padding: 16px;
     text-align: center;
-    background-image: url(/Develop/img/boost.jpg);
+    background-image: url(img/boost.jpg);
     font-family: 'Luckiest Guy', cursive;
     color: white;
     height: 25vh;
@@ -79,7 +79,7 @@ b
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
     padding: 16px;
     text-align: center;
-    background-image: url(/Develop/img/skate.png);
+    background-image: url(img/skate.png);
     font-family: 'Luckiest Guy', cursive;
     color: white;
     height: 25vh;
